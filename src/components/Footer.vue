@@ -3,13 +3,23 @@
     <h3>Copyrights @ <span class="name">Mouaad Nassih</span></h3>
     <ul>
       <li>
-        <a href="#"><img src="../assets/github-icon.svg" alt="" /></a>
+        <a
+          href="https://github.com/MOUAAD-NASSIH?tab=repositories"
+          target="_blank"
+          ><img src="../assets/github-icon.svg" alt=""
+        /></a>
       </li>
       <li>
-        <a href="#"><img src="../assets/Linkedin-icon.svg" alt="" /></a>
+        <a
+          href="https://www.linkedin.com/in/mouaad-nassih-856764230/"
+          target="_blank"
+          ><img src="../assets/Linkedin-icon.svg" alt=""
+        /></a>
       </li>
       <li>
-        <a href="#"><img src="../assets/Figma-icon.svg" alt="" /></a>
+        <a href="https://www.figma.com/" target="_blank"
+          ><img src="../assets/Figma-icon.svg" alt=""
+        /></a>
       </li>
     </ul>
   </div>

@@ -7,7 +7,11 @@
       <Cards class="card" />
     </div>
     <div class="more-projects">
-      <button>{{ btn }}</button>
+      <button>
+        <a href="https://github.com/MOUAAD-NASSIH?tab=repositories">{{
+          btn
+        }}</a>
+      </button>
     </div>
   </div>
 </template>
@@ -65,5 +69,11 @@ export default {
   background: linear-gradient(0.25turn, #13adc7, #6978d1, #945dd6);
   margin-top: 20px;
   cursor: pointer;
+}
+
+.more-projects button a {
+  color: #0f1624;
+  text-decoration: none;
+  font-weight: 500;
 }
 </style>

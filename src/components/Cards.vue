@@ -1,11 +1,24 @@
 <template>
   <figure class="card">
     <div class="card-content">
-      <img class="card-img" src="../assets/logo.png" />
+      <img class="card-img" src="../assets/starbucks.jpg" />
       <h1 class="card-title">{{ cardTitle }}</h1>
       <p class="card-desc">{{ cardDescription }}</p>
-      <button class="card-btn">{{ liveBtn }}</button>
-      <button class="card-btn">{{ codeBtn }}</button>
+      <button class="card-btn">
+        <a
+          href="https://starbucks-clone-website.netlify.app//"
+          target="_blank"
+          >{{ liveBtn }}</a
+        >
+      </button>
+      <button class="card-btn">
+        <a
+          href="https://github.com/MOUAAD-NASSIH/Starbucks-Clone"
+          target="_blank"
+        >
+          {{ codeBtn }}
+        </a>
+      </button>
     </div>
   </figure>
 </template>
@@ -14,9 +27,8 @@
 export default {
   data() {
     return {
-      cardTitle: "Project # ",
-      cardDescription:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt,reprehenderit?",
+      cardTitle: "StarBucks.com",
+      cardDescription: "Building a similar website to starbucks.com",
       liveBtn: "Live",
       codeBtn: "Code",
     };
@@ -43,6 +55,7 @@ export default {
   width: 250px;
   height: 200px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .card-title {
@@ -67,6 +80,12 @@ export default {
   background: linear-gradient(0.25turn, #13adc7, #6978d1, #945dd6);
   margin: 5px 10px;
   cursor: pointer;
+}
+
+.card-btn a {
+  color: #0f1624;
+  text-decoration: none;
+  font-weight: 500;
 }
 
 @keyframes rotate {

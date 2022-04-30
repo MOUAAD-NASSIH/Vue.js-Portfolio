@@ -30,12 +30,12 @@
           <a
             href="https://www.linkedin.com/in/mouaad-nassih-856764230/"
             target="_blank"
-            ><img src="../assets/Linkedin-icon.svg" alt=""
+            ><img src="../assets/Linkedin-icon.svg"
           /></a>
         </li>
         <li>
           <a href="https://www.figma.com/" target="_blank"
-            ><img src="../assets/Figma-icon.svg" alt=""
+            ><img src="../assets/Figma-icon.svg"
           /></a>
         </li>
       </ul>
