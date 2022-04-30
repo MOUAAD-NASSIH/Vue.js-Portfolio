@@ -6,7 +6,9 @@
     <div class="para-wrap">
       <p>{{ paragraph }}</p>
     </div>
-    <button>{{ btn }}</button>
+    <button>
+      <a href="#projects">{{ btn }}</a>
+    </button>
     <div class="bg-drawing"><img src="../assets/bg-drawing.svg" /></div>
 
     <div class="scroll-container">
@@ -80,8 +82,12 @@ export default {
   font-weight: 500;
   cursor: pointer;
   margin: 10px 0 20px 40px;
-
   background: linear-gradient(0.25turn, #13adc7, #6978d1, #945dd6);
+}
+
+.content button a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .scroll-container {

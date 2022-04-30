@@ -27,7 +27,7 @@
 export default {
   data() {
     return {
-      cardTitle: "StarBucks.com",
+      cardTitle: "StarBucks Clone",
       cardDescription: "Building a similar website to starbucks.com",
       liveBtn: "Live",
       codeBtn: "Code",
