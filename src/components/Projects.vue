@@ -2,9 +2,30 @@
   <div class="projects" id="projects">
     <h1 class="category">{{ categoryTitle }}</h1>
     <div class="cards-container">
-      <Cards class="card" />
-      <Cards class="card" />
-      <Cards class="card" />
+      <Cards
+        class="card"
+        cardTitle="CocaCola Clone"
+        cardDescription="Building a similar website to cocacola.com"
+        imgCard="../assets/starbucks.jpg"
+        codeSource="https://github.com/MOUAAD-NASSIH/CocaCola-Clone"
+        liveReview="https://cocacola-clone.netlify.app//"
+      />
+      <Cards
+        class="card"
+        cardTitle="StarBucks Clone"
+        cardDescription="Building a similar website to starbucks.com"
+        imgCard="../assets/starbucks.jpg"
+        codeSource="https://github.com/MOUAAD-NASSIH/Starbucks-Clone"
+        liveReview="https://starbucks-clone-website.netlify.app//"
+      />
+      <Cards
+        class="card"
+        cardTitle="Pepsi Clone"
+        cardDescription="Building a similar website to pepsi.com"
+        imgCard="../assets/starbucks.jpg"
+        codeSource="https://github.com/MOUAAD-NASSIH/Pepsi-Clone"
+        liveReview="https://pepsi-clone.netlify.app//"
+      />
     </div>
     <div class="more-projects">
       <button>

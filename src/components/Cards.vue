@@ -1,21 +1,14 @@
 <template>
   <figure class="card">
     <div class="card-content">
-      <img class="card-img" src="../assets/starbucks.jpg" />
+      <img class="card-img" :src="imgCard" />
       <h1 class="card-title">{{ cardTitle }}</h1>
       <p class="card-desc">{{ cardDescription }}</p>
       <button class="card-btn">
-        <a
-          href="https://starbucks-clone-website.netlify.app//"
-          target="_blank"
-          >{{ liveBtn }}</a
-        >
+        <a :href="liveReview" target="_blank">{{ liveBtn }}</a>
       </button>
       <button class="card-btn">
-        <a
-          href="https://github.com/MOUAAD-NASSIH/Starbucks-Clone"
-          target="_blank"
-        >
+        <a :href="codeSource" target="_blank">
           {{ codeBtn }}
         </a>
       </button>
@@ -27,12 +20,17 @@
 export default {
   data() {
     return {
-      cardTitle: "StarBucks Clone",
-      cardDescription: "Building a similar website to starbucks.com",
       liveBtn: "Live",
       codeBtn: "Code",
     };
   },
+  props: [
+    "cardTitle",
+    "cardDescription",
+    "imgCard",
+    "codeSource",
+    "liveReview",
+  ],
 };
 </script>
 
