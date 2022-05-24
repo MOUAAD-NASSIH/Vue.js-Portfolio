@@ -6,7 +6,7 @@
         class="card"
         cardTitle="CocaCola Clone"
         cardDescription="Building a similar website to cocacola.com"
-        imgCard="../assets/starbucks.jpg"
+        :imgCard="imgCard1"
         codeSource="https://github.com/MOUAAD-NASSIH/CocaCola-Clone"
         liveReview="https://cocacola-clone.netlify.app//"
       />
@@ -14,7 +14,7 @@
         class="card"
         cardTitle="StarBucks Clone"
         cardDescription="Building a similar website to starbucks.com"
-        imgCard="../assets/starbucks.jpg"
+        :imgCard="imgCard2"
         codeSource="https://github.com/MOUAAD-NASSIH/Starbucks-Clone"
         liveReview="https://starbucks-clone-website.netlify.app//"
       />
@@ -22,7 +22,7 @@
         class="card"
         cardTitle="Pepsi Clone"
         cardDescription="Building a similar website to pepsi.com"
-        imgCard="../assets/starbucks.jpg"
+        :imgCard="imgCard3"
         codeSource="https://github.com/MOUAAD-NASSIH/Pepsi-Clone"
         liveReview="https://pepsi-clone.netlify.app//"
       />
@@ -47,6 +47,9 @@ export default {
     return {
       categoryTitle: "Projects",
       btn: "See More projects",
+      imgCard1: require("../assets/starbucks.jpg"),
+      imgCard2: require("../assets/starbucks.jpg"),
+      imgCard3: require("../assets/starbucks.jpg"),
     };
   },
 };
